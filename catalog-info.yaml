@@ -7,6 +7,7 @@ metadata:
     - title: Repositório de Código
       url: "https://github.com/romagalhaes/ci-cd"
   annotations:
+    backstage.io/techdocs-ref: dir:.
     backstage.io/source-location: url:https://github.com/romagalhaes/ci-cd-infra
     github.com/project-slug: romagalhaes/ci-cd-infra
     idp.mycompany.com/repository-role: infrastructure
