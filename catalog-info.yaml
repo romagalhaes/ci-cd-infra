@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: "ci-cd-infra"
+  description: "Recursos de infraestrutura para a aplicação ci-cd"
+  links:
+    - title: Repositório de Código
+      url: "https://github.com/romagalhaes/ci-cd"
+  annotations:
+    # Aponta para o repositório de infraestrutura separado
+    github.com/project-slug: romagalhaes/ci-cd-infra
+spec:
+  type: terraform
+  owner: "group:default/guests"
+  lifecycle: production
