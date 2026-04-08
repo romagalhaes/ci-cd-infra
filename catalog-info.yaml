@@ -8,7 +8,7 @@ metadata:
       url: "https://github.com/romagalhaes/ci-cd"
   annotations:
     backstage.io/techdocs-ref: dir:.
-    backstage.io/source-location: url:https://github.com/romagalhaes/ci-cd-infra/tree/main
+    backstage.io/source-location: "url:https://github.com/romagalhaes/ci-cd-infra/tree/main/"
     github.com/project-slug: romagalhaes/ci-cd-infra
     idp.mycompany.com/repository-role: infrastructure
 spec:

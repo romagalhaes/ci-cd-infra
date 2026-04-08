@@ -14,3 +14,9 @@ variable "aws_region" {
   description = "Regiao AWS usada pelo provider e backend remoto"
   default     = "us-east-1"
 }
+
+variable "environment" {
+  type        = string
+  description = "Ambiente da aplicação"
+  default     = "dev"
+}
